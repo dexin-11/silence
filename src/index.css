@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  background: #F5F0EA;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4A4A4A;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+/* 全站无按钮装饰：纯文字按钮 */
+button,
+textarea {
+  font: inherit;
+  font-style: normal;
+  font-weight: 400;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  resize: none;
+  cursor: pointer;
+}
+
+textarea {
+  cursor: text;
+}
+
+::selection {
+  background: rgba(196, 164, 138, 0.25);
+}
