@@ -1,6 +1,0 @@
-node_modules
-dist
-dev-dist
-.wrangler
-.DS_Store
-.trae-html-share-packages/
